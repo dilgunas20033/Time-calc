@@ -39,7 +39,7 @@ std::string findCalc(void)
         }
         else if (placeHolder == "MINUTES")
         {
-            for (words = 0; words < 7; words++)
+            for (words = 1; words < 8; words++)
             {
                 if (placeHolder == timeLabels[words])
                 {
